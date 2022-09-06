@@ -1,4 +1,5 @@
 import type { Page } from '../ui/page';
+import type { ViewBase } from '../ui/core/view-base';
 import type { View } from '../ui/core/view';
 import type { AndroidAccessibilityEvent } from './accessibility-types';
 
@@ -9,7 +10,7 @@ export * from './font-scale';
 /**
  * Initialize accessibility for View. This should be called on loaded-event.
  */
-export function setupAccessibleView(view: Partial<View>): void;
+export function setupAccessibleView(view: Partial<ViewBase>): void;
 
 /**
  * Update accessibility properties on nativeView

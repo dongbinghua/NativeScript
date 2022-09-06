@@ -138,11 +138,15 @@ export class TextField extends TextFieldBase {
 	@profile
 	public onLoaded() {
 		super.onLoaded();
-		this.ios.delegate = this._delegate;
+		if (this.ios) {
+			this.ios.delegate = this._delegate;
+		}
 	}
 
 	public onUnloaded() {
-		this.ios.delegate = null;
+		if (this.ios) {
+			this.ios.delegate = null;
+		}
 		super.onUnloaded();
 	}
 
