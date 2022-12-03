@@ -1,6 +1,6 @@
 import * as Application from '../application';
 import { Trace } from '../trace';
-import { SDK_VERSION } from '../utils';
+import { SDK_VERSION } from '../utils/constants';
 import type { ViewBase } from '../ui/core/view-base';
 import type { View } from '../ui/core/view';
 import { GestureTypes } from '../ui/gestures';
