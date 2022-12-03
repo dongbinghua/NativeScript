@@ -18,17 +18,17 @@
     "url": "https://github.com/NativeScript/NativeScript.git"
   },
   "dependencies": {
-    "@nrwl/nx-cloud": "^15.0.2",
+    "@nrwl/nx-cloud": "15.0.2",
     "nativescript-theme-core": "^1.0.4"
   },
   "devDependencies": {
     "@nativescript/hook": "^2.0.0",
     "@nativescript/nx": "~4.1.0",
-    "@nrwl/cli": "15.2.1",
-    "@nrwl/eslint-plugin-nx": "15.2.1",
-    "@nrwl/jest": "15.2.1",
-    "@nrwl/node": "15.2.1",
-    "@nrwl/workspace": "15.2.1",
+    "@nrwl/cli": "15.2.4",
+    "@nrwl/eslint-plugin-nx": "15.2.4",
+    "@nrwl/jest": "15.2.4",
+    "@nrwl/node": "15.2.4",
+    "@nrwl/workspace": "15.2.4",
     "@nstudio/focus": "^15.0.0",
     "@nstudio/nps-i": "~2.0.0",
     "@prettier/plugin-xml": "^2.2.0",
@@ -55,7 +55,7 @@
     "module-alias": "^2.2.2",
     "nativescript": "~8.3.0",
     "nativescript-typedoc-theme": "1.1.0",
-    "nx": "15.2.1",
+    "nx": "15.2.4",
     "parse-css": "git+https://github.com/tabatkins/parse-css.git",
     "parserlib": "^1.1.1",
     "prettier": "^2.6.2",
@@ -79,3 +79,4 @@
     ]
   }
 }
+
